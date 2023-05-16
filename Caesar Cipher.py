@@ -45,14 +45,14 @@ list_msg = []
 """
     Convierte letras a numeros
 """
-for ia in list_a:
-    list_num_a.append(letras_a_numeros(ia))
+for _a in list_a:
+    list_num_a.append(letras_a_numeros(_a))
 
 """
     Convierte de numero a letras
 """
-for ib in list_num_a:
-    list_msg.append(numeros_a_letras(ib + c))
+for _b in list_num_a:
+    list_msg.append(numeros_a_letras(_b + c))
 
 print("".join(list_msg))
 input()
